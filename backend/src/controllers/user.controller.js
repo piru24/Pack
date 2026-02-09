@@ -1,4 +1,4 @@
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import User from "../models/User.js";
 import { ALL_MODULES } from "../constants/managementModules.js";
 import { logAction } from "../utils/auditLogger.js";
