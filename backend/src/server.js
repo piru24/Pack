@@ -99,6 +99,9 @@ app.use("/api/expenditure-codes", expenditureCodeRoutes);
 
 
 
+app.get("/health", (req,res)=>{
+  res.send("API OK");
+});
 
 
 app.get("/", (req, res) => {
